@@ -110,7 +110,7 @@ public class ExpandingMenuItem: UIView {
         if let title = title {
             self.titleButton = self.createTitleButton(title, titleColor: titleColor)
             if let titleFont = titleFont {
-                titleButton.titleLabel?.font = titleFont
+                titleButton?.titleLabel?.font = titleFont
             }
         }
     }
